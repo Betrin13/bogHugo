@@ -1,0 +1,9 @@
+baseURL = ""
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "bogPorfolio"
+MetaDataFormat = "toml"
+
+[permalinks]
+	page = "/:title/"
+	about = "/:filename/"
